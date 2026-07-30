@@ -21,10 +21,14 @@ function App() {
               title={title}
               price={price}
               description={description}
+
+              
             />
           );
         })}
+
       </div>
+      <h2>Developed by Sadik J</h2>
     </>
   );
 }

@@ -44,3 +44,8 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+h2{
+    color : #d47d03;
+    text-align : center;
+}
