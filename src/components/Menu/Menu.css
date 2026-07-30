@@ -1,0 +1,47 @@
+.single-food {
+  width: 100%;
+  max-width: 370px;
+  margin: 18px auto;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.5s;
+  height: 500px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.single-food:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.img img {
+  width: 100%;
+  display: block;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.title-price h3 {
+  font-size: 16px;
+}
+
+.title-price p {
+  background: #ff9500;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+.food-desc {
+  padding: 0 20px 20px;
+}
+
+.food-desc p {
+  font-size: 15px;
+  font-weight: 300;
+}
